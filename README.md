@@ -1,5 +1,4 @@
 # Python for Scientific Audio [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-[![Build Status](https://travis-ci.org/faroit/awesome-python-scientific-audio.svg?branch=master)](https://travis-ci.org/faroit/awesome-python-scientific-audio)
 
 The aim of this repository is to create a comprehensive, curated list of python software/tools related and used for scientific research in audio/music applications.
 
@@ -67,16 +66,18 @@ Learned from Utterance-Based Parallel Neural Network
 * [Paper](https://arxiv.org/pdf/1802.06209.pdf) - Sentiment Analysis on Speaker Specific
 Speech Data
 * [Article](https://medium.com/@maheshwarin04/emotions-analysis-from-voice-data-using-python-and-keras-a2b5c6fd988f) - Emotions Recognition from voice data using Python and Keras
-
+* [speech-emotion-recognition](https://github.com/harry-7/speech-emotion-recognition) - Speaker independent emotion recognition
 
 ### Speech 
 
-#### Diarization 
+#### Diarization / Speaker identification
 * [resemblyzer](https://github.com/resemble-ai/Resemblyzer) - A python package to analyze and compare voices with deep learning. Used by Robin Blanchard [for his attempt](https://docs.google.com/presentation/d/1aj2o5jj82CncFShEfN3chdqzFmfjuvB7wlNKWZju-fo/edit#slide=id.g7219d431b8_0_0).
 * Wavesplit: End-to-end Speech Separation by Speaker Clustering, Zeghidour N. et al, 2020 - Speaker stack + separation stack. fixed number of speakers
 * Speaker Diarization with Region Proposal Network, Huang Z. et al, 2020 - based on Faster R-CNN
 * [pyannote.audio](https://github.com/pyannote/pyannote-audio) [:octocat:](https://github.com/pyannote/pyannote-audio) [:package:](https://pypi.org/project/pyannote-audio/) - Neural building blocks for speaker diarization.
-
+* [Deep_Speaker-speaker_recognition_system](https://github.com/Walleclipse/Deep_Speaker-speaker_recognition_system) - Keras implementation of [Deep Speaker: an End-to-End Neural Speaker Embedding System](https://arxiv.org/pdf/1705.02304.pdf) (speaker recognition)
+* [speaker-recognition](https://github.com/ppwwyyxx/speaker-recognition) - A Speaker Recognition System with GUI.
+* [3D-convolutional-speaker-recognition](https://github.com/astorfi/3D-convolutional-speaker-recognition) - Deep Learning & 3D Convolutional Neural Networks for Speaker Verification
 
 #### Speech recognition
 * [SpeechRecognition](https://github.com/Uberi/speech_recognition) [:octocat:](https://github.com/Uberi/speech_recognition) [:package:](https://pypi.python.org/pypi/SpeechRecognition/) -  Wrapper for several ASR engines and APIs, online and offline. Could be useful to add Wrappers
@@ -89,7 +90,7 @@ Speech Data
 * [Parselmouth](https://github.com/YannickJadoul/Parselmouth) [:octocat:](https://github.com/YannickJadoul/Parselmouth) [:package:](https://pypi.org/project/praat-parselmouth/) - Python interface to the [Praat](http://www.praat.org) phonetics and speech analysis, synthesis, and manipulation software.
 * [persephone](https://persephone.readthedocs.io/en/latest/) [:octocat:](https://github.com/persephone-tools/persephone) [:package:](https://pypi.org/project/persephone/) - Automatic phoneme transcription tool.
 * [py-webrtcvad](https://github.com/wiseman/py-webrtcvad) [:octocat:](https://github.com/wiseman/py-webrtcvad) [:package:](https://pypi.python.org/pypi/webrtcvad/) -  Interface to the WebRTC Voice Activity Detector.
-* [pypesq](https://github.com/vBaiCai/python-pesq) [:octocat:](https://github.com/vBaiCai/python-pesq) - Wrapper for the PESQ score calculation.
+* [pypesq](https://github.com/vBaiCai/python-pesq) [:octocat:](https://github.com/vBaiCai/python-pesq) - Wrapper for the PESQ score calculation. (Perceptual Evaluation of Speech Quality) 
 * [pystoi](https://github.com/mpariente/pystoi) [:octocat:](https://github.com/mpariente/pystoi) [:package:](https://pypi.org/project/pystoi) - Short Term Objective Intelligibility measure (STOI).
 * [PyWorldVocoder](https://github.com/JeremyCCHsu/Python-Wrapper-for-World-Vocoder) [:octocat:](https://github.com/JeremyCCHsu/Python-Wrapper-for-World-Vocoder) - Wrapper for Morise's World Vocoder.
 * [Montreal Forced Aligner](https://montrealcorpustools.github.io/Montreal-Forced-Aligner/) [:octocat:](https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner) - Forced aligner, based on Kaldi (HMM), English (others can be trained).
